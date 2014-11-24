@@ -1,0 +1,38 @@
+{
+  "name": "parser-xml",
+  "description": "parser-cache compatible XML parser.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/parser-xml",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/parser-xml.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/parser-xml/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jonschlinkert/parser-xml/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "dependencies": {
+    "extend-shallow": "^0.1.1",
+    "xml2js": "^0.4.4"
+  }
+}
