@@ -39,13 +39,6 @@ parser.parseFile('fixtures/a.xml', function (err, res) {
 });
 ```
 
-### parseSync
-
-```js
-var res = parser.parseSync(str, options);
-console.log(res);
-```
-
 ## API
 
 ### [parse](index.js#L32)
